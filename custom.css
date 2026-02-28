@@ -1,0 +1,46 @@
+:root {
+    --primary_color: #4a90e2;
+    --primary_light: #6ba5e8;
+    --primary_dark: #3a7bc8;
+    --secondary_color: #ffffff;
+    --text_color: #2c3e50;
+    --text_light: #7f8c8d;
+    --background_color: #f8fafc;
+    --card_background: #ffffff;
+    --success_color: #38a169;
+    --error_color: #e53e3e;
+    --warning_color: #d69e2e;
+    --button_radius: 4%;
+    --button_padding: 12px 24px;
+    --button_font_size: 1rem;
+    --button_font_weight: 600;
+    --button_shadow: 0 4px 6px rgba(0,0,0,0.1);
+    --button_hover_scale: 1.02;
+    --header_position: sticky;
+    --header_height: 70px;
+    --logo_position: left;
+    --nav_position: right;
+    --cart_position: right;
+    --products_per_row_desktop: 4;
+    --products_per_row_tablet: 2;
+    --products_per_row_mobile: 1;
+    --font_family: 'Inter', sans-serif;
+    --font_size_base: 16px;
+    --heading_font_weight: 700;
+    --product_image_height: 200px;
+    --product_border_radius: 12px;
+    --product_shadow: 0 4px 6px rgba(0,0,0,0.05);
+    --product_shadow_hover: 0 10px 15px rgba(0,0,0,0.1);
+    --category_image_height: 150px;
+    --category_border_radius: 12px;
+}
+
+.cart-icon { color: #3a88fe; }
+.cart-count { background: #b51a00; color: #ffffff; }
+.floating-cart-btn { bottom: 30px; }
+.header { position: sticky; height: 70px; }
+@media (min-width: 1024px) { .products-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 768px) and (max-width: 1023px) { .products-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 767px) { .products-grid { grid-template-columns: repeat(1, 1fr); } }
+
+/* Пользовательские стили */
